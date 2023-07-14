@@ -312,8 +312,6 @@ def update_bests(pbest, gbest, power_matrix, voltage_matrix, reactive_matrix, br
     for i in range(np.shape(power_matrix)[0]):
 
         # constraint() will return a boolean value, which returns true if the particle is within the acceptable constraints
-        # if constraint(x[i]) == True:
-
 
         if compute_fcn(j, power_matrix[i], reactive_matrix[i], voltage_matrix[i], branch_load_matrix[i]) < compute_fcn(j, pbest[i, :d],  pbest[i, d:2*d], pbest[i, 2*d : 2*d + busses], pbest[i, 2*d + busses : 2*(d+busses)]):
 
@@ -345,20 +343,6 @@ def optimize(x, v, pbest, gbest, j):
             
             gbest = pbest[i]
             index = i
-        
-        # else:
-        #     # arbitrary, will need to be changed
-        #     gbest = []
-        #     for i in range(d):
-        #         gbest.append(p_g_max)
-        #     for i in range(d):
-        #         gbest.append(q_g_max)
-            
-        #     for j in range(busses):
-        #         gbest.append(v_lim)
-            
-        #     for j in range(busses):
-        #         gbest.append(s_l_max)
 
 
     decrease = 0.5/num_iters
