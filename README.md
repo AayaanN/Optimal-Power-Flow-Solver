@@ -8,7 +8,7 @@ An Optimal Power Flow solver, using a PSO (particle swarm optimization) variant 
 PSO is a leading metaheuristic, and I wanted to develop my own variant based on research conducted, to perform OPF, which is a highly non-linear, constrained problem.
 
 ### Technologies
-Python, PyPower
+Python, PyPower, NumPy, MatPlotLib
 
 ### Contributors
 Aayaan Naqvi
