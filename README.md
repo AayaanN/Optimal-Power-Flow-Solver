@@ -12,7 +12,8 @@ Python, PyPower, NumPy, MatPlotLib
 
 ### Contributors
 Aayaan Naqvi
-<img src='https://www.google.com/url?sa=i&url=https%3A%2F%2Ficseg.iti.illinois.edu%2Fieee-39-bus-system%2F&psig=AOvVaw2Jvub31qWe_NhgQqKNM3DJ&ust=1693812403715000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNCi34b1jYEDFQAAAAAdAAAAABAE'>
+
+<img width="630" alt="Screen Shot 2023-09-03 at 3 28 48 AM" src="https://github.com/AayaanN/Optimal-Power-Flow-Solver/assets/66046533/0005dcbc-715b-48ac-9e71-44469650e322">
 
 <img width="710" alt="Screen Shot 2023-07-14 at 7 04 43 PM" src="https://github.com/AayaanN/Optimal-Power-Flow-Solver/assets/66046533/f38efb8f-f13f-4cf4-b1d2-3fd852e0aae3">
 <img width="585" alt="Screen Shot 2023-07-14 at 7 05 17 PM" src="https://github.com/AayaanN/Optimal-Power-Flow-Solver/assets/66046533/191cbf45-52c2-461d-9822-17c73851147f">
